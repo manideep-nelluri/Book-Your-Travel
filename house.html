@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width intial-scale=1.0">
+        <title>House details Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav id="navbar" class="navbar-white" >
+            <a href="house.html">
+                <img src="images/logo-red.png" class="logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">popular places</a></li>
+                <li><a href="#">Travel outside</a></li>
+                <li><a href="listing.html">online packages</a></li>
+            </ul>
+            <a href="#" class="register-btn">Register Now</a>
+            <i class="fa fa-bars" onclick="togglebtn()"></i>
+        </nav> 
+
+           <div class="house-details">
+            <div class="house-title">
+                <h1>Wenge House</h1>
+                <div class="row">
+                    <div>
+                        <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                        <i class="fa fa-star-o"></i>
+                        <span>245 Reviews</span>
+                    </div>
+                    <div>
+                        <p> Location: Switzerland, California, United States</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="gallery-img-1"><img src="images/house-1.png"></div>
+                <div><img src="images/house-2.png"></div>
+                <div><img src="images/house-3.png"></div>
+                <div><img src="images/house-4.png"></div>
+                <div><img src="images/house-5.png"></div>
+            </div>
+            <div class="small-details">
+                <h2>Entire rental unit hosted by Brandon</h2>
+                <p>2 guest &nbsp; &nbsp; 2beds &nbsp; &nbsp; 1 Bathroom</p>
+                <h4>$ 100 / day</h4>
+            </div>
+            <hr class="line">
+            <form class="check-form">
+                <div>
+                    <label>Check-in</label>
+                    <input type="text" placeholder="Add date">
+                </div>
+                <div>
+                    <label>Check-out</label>
+                    <input type="text" placeholder="2 guest">
+                </div>
+                <div class="guest-field">
+                    <label>Guest</label>
+                    <input type="text" placeholder="Add date">
+                </div>
+                <button type="submit">Check Available</button>
+            </form>
+
+            <ul class="details-list">
+                <li><i class="fa fa-home"></i>Entire house
+                    <span>You will have the entire flat for you</span>
+                </li>
+                <li><i class="fa fa-paint-brush"></i>Enhanced Clean
+                    <span>This Host has Committed to staybnb's cleaning process</span>
+                </li>
+                <li><i class="fa fa-map-marker"></i>Great Location
+                    <span>90% of recent guests gave the location a 5 star rating</span>
+                </li>
+                <li><i class="fa fa-heart"></i>Great Check-in Experience
+                    <span>100% of recent guests the check-in process a 5 star ratting</span>
+                </li>
+            </ul>
+            <hr class="line">
+
+            <p class="home-description">Guest will be Allocated on the ground floor to availablity. you get
+                a comfortable Two bedroom apartment has a true city feelings.The price quoted
+                is for two guest,at the guest slot please mark the number of guest to get the exact price
+                for groups. 
+            </p>
+            <hr class="line">
+             <h3>Location on map</h3>
+            <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1398189.2490876922!2d6.904918688224698!3d46.80748952737615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c64ef6f596d61%3A0x5c56b5110fcb7b15!2sSwitzerland!5e0!3m2!1sen!2sin!4v1735908279306!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <b>Switzerland, United States, Clifornia</b>
+            <p>It's like a heme away from home.</p>
+
+             <hr class="line">
+
+             <div class="host">
+                <img src="images/host.png">
+                <div>
+                    <h2>Hosted by Brandon</h2>
+                    <P><span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-full"></i>
+
+
+                    </span>&nbsp; &nbsp; 245 reviews &nbsp; &nbsp; response rate 100% &nbsp; &nbsp; Response time: 60min</P>
+                </div>
+             </div>
+             <a href="#" class="contact-host">Contact Host</a>
+
+
+           </div>
+
+           <div class="container">
+            <div class="footer">
+                <a href="https://facebook.com/"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://youtube.com/"><i class="fa fa-youtube-play"></i></a>
+                <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a href="https://linkedin.com/"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://instagram.com/"><i class="fa fa-instagram"></i></a>
+                <hr>
+                <p>Explore the world</p>
+    
+            </div>
+           </div>
+           <script>
+            var navbar = document.getElementById("navbar");
+            function togglebtn(){
+                navbar.classList.toggle("hidemenu")
+            }
+          </script>
+
+    </body>
+    </html>
